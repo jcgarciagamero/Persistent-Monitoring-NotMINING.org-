@@ -1,2 +1,4 @@
 # Persistent-Monitoring-NotMINING.org-
-You can detectet suspect activity in your CPU.
+Detect cryptocurrency mining patterns in your CPU and network.
+
+
