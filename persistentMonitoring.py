@@ -9,7 +9,7 @@ i = 0
 while i == 0:
 	cpu = psutil.cpu_percent()
 	time.sleep( 1 )
-	if cpu > 40.0:
+	if cpu > 30.0:
 			
 			cpu = psutil.cpu_percent()
 			os.system('netstat > net.html')
