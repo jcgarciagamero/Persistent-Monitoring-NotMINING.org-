@@ -27,6 +27,7 @@ while i == 0:
 			search9 = lines.find('mail.aba.ae')
 			search10 = lines.find('104.31.93.36')
 			search11 = lines.find('104.31.92.36')
+			search12 = lines.find('ec2-52-57-80-78')
 									
 			if search != -1:
 				print('Mining with Coinhive')
@@ -63,6 +64,9 @@ while i == 0:
 				
 			elif search11 != -1:
 				print('Mining with crypta-loot.com')
+			
+			elif search12 != -1:
+				print('Mining with webminerpool.com')
 				
 			
 									
