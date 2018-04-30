@@ -28,6 +28,14 @@ while i == 0:
 			search10 = lines.find('104.31.93.36')
 			search11 = lines.find('104.31.92.36')
 			search12 = lines.find('ec2-52-57-80-78')
+			search13 = lines.find('5.255.86.116')
+			search14 = lines.find('45.77.196.10')
+			search15 = lines.find('45.63.109.36')
+			search16 = lines.find('207.246.116.117')
+			search17 = lines.find('45.77.192.104')
+			search18 = lines.find('188.166.33.242')			
+			search19 = lines.find('178.62.227.52')	 		
+			search20 = lines.find('104.18.46.158')
 									
 			if search != -1:
 				print('Mining with Coinhive')
@@ -67,7 +75,30 @@ while i == 0:
 			
 			elif search12 != -1:
 				print('Mining with webminerpool.com')
-				
+			
+			elif search13 != -1:
+				print('Mining with Proxy: wss://javascriptcdn.stream:8892/proxy , Coinhive')
+			
+			elif search14 != -1:
+				print('Mining with herphemiste.com')
+			
+			elif search15 != -1:
+				print('Mining with herphemiste.com')
+			
+			elif search16 != -1:
+				print('Mining with herphemiste.com')
+			
+			elif search17 != -1:
+				print('Mining with herphemiste.com')
+			
+			elif search18 != -1:
+				print('Mining with web.stati.bid')
+			
+			elif search19 != -1:
+				print('Mining with g-content.bid')
+			
+			elif search20 != -1:
+				print('Mining with coin-have.com')
 			
 									
 			time.sleep( 10 )
