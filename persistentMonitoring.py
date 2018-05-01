@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#Version: 0.0.3
+
 import urllib
 import psutil
 import os
@@ -36,6 +38,9 @@ while i == 0:
 			search18 = lines.find('188.166.33.242')			
 			search19 = lines.find('178.62.227.52')	 		
 			search20 = lines.find('104.18.46.158')
+			search21 = lines.find('104.27.152.155')
+			search22 = lines.find('104.18.54.211')
+			search23 = lines.find('crypto-webminer')
 									
 			if search != -1:
 				print('Mining with Coinhive')
@@ -100,5 +105,13 @@ while i == 0:
 			elif search20 != -1:
 				print('Mining with coin-have.com')
 			
+			elif search21 != -1:
+				print('Mining with 1q2w3.website')
+			
+			elif search22 != -1:
+				print('Mining with aster18cdn.nl')
+			
+			elif search23 != -1:
+				print('Mining with eth-pocket.de')
 									
 			time.sleep( 10 )
