@@ -42,6 +42,8 @@ while i == 0:
 			search22 = lines.find('104.18.54.211')
 			search23 = lines.find('crypto-webminer')
 			search24 = lines.find('104.28.16.102')
+			search25 = lines.find('ns3083487.ip-145')
+			search26 = lines.find('ns3104461.ip-54')
 									
 			if search != -1:
 				print('Mining with Coinhive')
@@ -117,5 +119,10 @@ while i == 0:
 			
 			elif search24 != -1:
 				print('Mining with tulip18.com/amo.js')
+			
+			elif search25 != -1:
+				print('Mining s2.skencituer.com')
+			elif search26 != -1:
+				print('Mining s3.skencituer.com')
 									
 			time.sleep( 10 )
