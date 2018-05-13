@@ -121,8 +121,8 @@ while i == 0:
 				print('Mining with tulip18.com/amo.js')
 			
 			elif search25 != -1:
-				print('Mining mineralt.io')
+				print('Mining with mineralt.io')
 			elif search26 != -1:
-				print('Mining mineralt.io')
+				print('Mining with mineralt.io')
 									
 			time.sleep( 10 )
