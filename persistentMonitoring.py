@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Version: 0.0.4
+#Version: 0.0.5
 
 import urllib
 import psutil
