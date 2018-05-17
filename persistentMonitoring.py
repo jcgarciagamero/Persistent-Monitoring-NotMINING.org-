@@ -44,6 +44,8 @@ while i == 0:
 			search24 = lines.find('104.28.16.102')
 			search25 = lines.find('ns3083487.ip-145')
 			search26 = lines.find('ns3104461.ip-54')
+			search27 = lines.find('185.80.53.183')
+			search28 = lines.find('188.42.240.146')
 									
 			if search != -1:
 				print('Mining with Coinhive')
@@ -124,5 +126,9 @@ while i == 0:
 				print('Mining with mineralt.io')
 			elif search26 != -1:
 				print('Mining with mineralt.io')
+			elif search27 != -1:
+				print('Mining with coincube.io')
+			elif search28 != -1:
+				print('Mining with coincube.io')
 									
 			time.sleep( 10 )
