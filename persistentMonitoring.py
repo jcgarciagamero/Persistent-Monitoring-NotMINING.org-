@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Version: 0.0.6
+#Version: 0.0.7
 
 import urllib
 import psutil
@@ -48,6 +48,7 @@ while i == 0:
 			search28 = lines.find('188.42.240.146')
 			search29 = lines.find('165.227.10.77')
 			search30 = lines.find('207.246.117.237')
+			search31 = lines.find('206.189.24.193')
 			if search != -1:
 				print('Mining with Coinhive')
 				
@@ -133,7 +134,9 @@ while i == 0:
 				print('Mining with coincube.io')
 			elif search29 != -1:
 				print('Mining with munero.me')
-			elif search29 != -1:
+			elif search30 != -1:
 				print('Mining with mb.sentemanactri.com')
+			elif search31 != -1:
+				print('Mining with polskota.club')
 									
 			time.sleep( 10 )
