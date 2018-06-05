@@ -6,9 +6,7 @@ import psutil
 import os
 import time
 import sys
-from PyQt4 import QtGui  
-from PyQt4.QtGui import QMessageBox  
-aplicacion = QtGui.QApplication(sys.argv)
+
 
 
 i = 0
